@@ -71,6 +71,16 @@ export const licenseConfig: LicenseConfig = {
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
 
+// 文章评论（giscus，基于 GitHub Discussions）。ID 可在 https://giscus.app 上按仓库查询
+export const giscusConfig = {
+	enable: true,
+	repo: "Foxerine/blogs",
+	repoId: "R_kgDOVUjBAQ",
+	category: "Announcements",
+	categoryId: "DIC_kwDOVUjBAc4DJZ_t",
+	lang: "zh-CN",
+};
+
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	// Note: Some styles (such as background color) are being overridden, see the astro.config.mjs file.
 	// Please select a dark theme, as this blog theme currently only supports dark background color
